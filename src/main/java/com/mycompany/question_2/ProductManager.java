@@ -16,5 +16,7 @@ public class ProductManager {
     
     public double calculateDiscount(double price, double discountPercent) {
     return price - (price * discountPercent / 100.0);
+    // Calculates the final price after applying a percentage discount.
+
 }
 }
