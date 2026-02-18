@@ -13,4 +13,8 @@ public class ProductManager {
     public ProductManager() {
         System.out.println("ProductManager initialized");
     }
+    
+    public double calculateDiscount(double price, double discountPercent) {
+    return price - (price * discountPercent / 100.0);
+}
 }
